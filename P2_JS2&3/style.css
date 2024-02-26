@@ -1,0 +1,26 @@
+h2{
+    color : orange;
+    font-family : Trebuchet MS;
+    text-align: center;
+}
+
+.kotak{
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+
+#kotak {
+    width: 400px;
+    color: #fff;
+    background: blue;
+    padding: 50px;
+}
+
+body {
+    background: url('https://th.bing.com/th/id/OIP.qQH5zphHi2ApSn6n-CZIGgHaE8?w=500&h=336&rs=1&pid=ImgDetMain'), url('https://live.staticflickr.com/7435/9333925094_d901e611ac.jpg');
+    background-repeat: no-repeat, repeat;
+    color: white;
+}
