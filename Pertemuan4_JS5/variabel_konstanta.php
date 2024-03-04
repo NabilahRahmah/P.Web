@@ -1,4 +1,5 @@
 <?php
+
 $angka1 = 10;
 $angka2 = 4;
 $hasil = $angka1 +$angka2;
