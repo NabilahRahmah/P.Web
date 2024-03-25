@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery-3.7.1.js"></script>
+		<script>
+            //jQuery selector yang digunakan terdapat 6 selector
+			$(document).ready(function () {
+				$("button").click(function () {
+					$("h2").hide();
+					$(".subjudul").hide();
+					$("#paragraf").hide();
+					$("#paragraf.dua").hide();
+					$("div p.paragraf").hide();
+				});
+			});
+		</script>
+	</head>
+	<body>
+        <!-- isi yang akan tampil ketika program dijalankan -->
+		<h2>Ini adalah Judul Bab</h2>
+		<h3 class="subjudul">Ini adalah Sub Judul Bab</h3>
+		<p id="paragraf">Ini adalah paragraf pertama</p>
+		<p id="paragraf" class="dua">Ini adalah paragraf kedua</p>
+		<div><p class="paragraf">Ini adalah paragraf ketiga</p></div>
+        <!-- ketika "klik saya" ditekan maka tulisan dibawah ini yang akan muncul -->
+		<p>Ini paragraf yang akan tetap ditampilkan</p>
+		<button>Klik Saya!</button>
+	</body>
+</html>
