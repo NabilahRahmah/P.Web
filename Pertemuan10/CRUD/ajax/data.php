@@ -16,9 +16,9 @@
         // Variabel untuk nomor urut
         $no = 1;
         // Query untuk mengambil data anggota
-        $query = "SELECT * FROM anggota ORDER BY id DESC";
-        $sql = $db1->prepare($query);
-        $sql->execute();
+        $query = "SELECT * FROM anggota ORDER BY id DESC";         
+        $sql = $db1->prepare($query);         
+        $sql->execute();         
         $res1 = $sql->get_result();
         // Jika ada hasil dari query
         if ($res1->num_rows > 0) {

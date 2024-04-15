@@ -26,7 +26,7 @@ if ($id == "") {
     // Query untuk UPDATE data yang sudah ada
     $query = "UPDATE anggota SET nama=?, jenis_kelamin=?, alamat=?, no_telp=? WHERE id=?";
     // Persiapan query
-    $sql = $db->prepare($query);
+    $sql = $db1->prepare($query);
     // Binding parameter dan eksekusi query
     $sql->bind_param("ssssi", $nama, $jenis_kelamin, $alamat, $no_telp, $id);
     $sql->execute();

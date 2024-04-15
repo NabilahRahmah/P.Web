@@ -1,10 +1,9 @@
 <?php 
-
-define('HOST','localhost');
-define('USER','root');
-define('PASS','');
-define('DBL','prakwebdb');
+    define('HOST','localhost');
+    define('USER','root');
+    define('PASS','');
+    define('DB1','prakwebdb');
 
 //Buat Koneksinya
-$dbl = new mysqli(HOST, USER, PASS, DBL);
+    $db1 = new mysqli(HOST, USER, PASS, DB1);
 ?>
